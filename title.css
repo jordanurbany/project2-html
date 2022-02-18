@@ -1,10 +1,46 @@
 
-
+header{
+  justify-content: center;
+  line-height: 120px;
+  width: 1500px;
+  font-size: 85px;
+  text-shadow: 2px 2px #cccfcd;
+  font-weight: bold;
+  background-color: rgb(236, 201, 158);
 }
-.contianer{
-    display: flex: 1 1 30%;
-    flex-direction: columns;
-    column-gap: 25px 200px 25px;
+body{
+    font-family: "Poppins-Regular";
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: #2dd3bd;
+    margin: 0
+}
+#container {
+  display: flex;
+}
+.photo {
+  background-color: black;
+  padding: 2px;
+  margin: 40px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+  border: solid rgb(0, 0, 0);   
+}
 
-    
+.photo img {
+  width: 400px;
+  height: 500px;
+}
+
+#container_form{
+  display: flex;
+  flex-direction: column;
+}
+form {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+}
+span.entry{
+  font-size: 5px;
+  outline-style: groove;
 }

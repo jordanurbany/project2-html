@@ -41,6 +41,12 @@ form {
   flex-direction: column;
 }
 span.entry{
-  font-size: 5px;
-  outline-style: groove;
+  font-size: 20px;
+  outline-style: inset;
+  background-color: #f7f7f7f8;
+  margin-left: 2%;
+  padding: 1px;
+}
+footer{
+  align-content: center;
 }

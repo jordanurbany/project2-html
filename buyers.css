@@ -1,0 +1,20 @@
+header{
+    justify-content: center;
+    line-height: 120px;
+    width: 1500px;
+    font-size: 85px;
+    text-decoration-color: #cccdcf;
+    text-shadow: 2px 2px #4569b3;
+    font-weight: bold;
+    background-color: rgb(236, 201, 158);
+  }
+  #grad {
+    background-image: linear-gradient(to right, rgba(185, 78, 78, 0), rgba(255,0,0,1));
+  }
+  #container {
+    display: flex;
+  }
+  form{
+      text-align: left;
+      font-size: 20px;
+  }

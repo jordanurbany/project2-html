@@ -6,14 +6,137 @@
 -->
 
 <head>
-    <title>Lab4b</title>
+    <title>HW2</title>
     <meta charset="utf-8" />
-	<link rel="stylesheet" href="buyers.css">
+    <link rel="stylesheet" href="buyers.css">
     <title>Jordan Urbany</title>
     <meta charset="utf-8" />
 </head>
 
 <body>
     <header> House Buyer Form</header><br />
-    <div id="grad1"></div>
-    
+
+    <div class="form">
+        <form action="result.html" method="post">
+            <fieldset>
+                <Legend>Contact Info</Legend>
+                <div>
+                    <label for="name">First Name</label>
+                    <input name="name" placeholder="name" required>
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input name="lname" placeholder="last name" required>
+                </div>
+                <div>
+                    <label for="nmuber">Phone Number</label>
+                    <input type="number" placeholder="(707)601-1111" required>
+                </div>
+                <div>
+                    <label for="address">Address</label>
+                    <input type="email" name="email" placeholder="2021 Gilmore Ave" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input email="email" placeholder="123jordan@gmail.com">
+                </div>
+                <div>
+                    <button type="reset">Reset</button>
+                    <button type="submit">submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="form">
+        <form action="result.html" method="post">
+            <fieldset>
+                <legend>House Details</legend>
+                <div>
+                    <label for="price-range">Price Range</label>
+                    <input type="number" name="price-range" placeholder="125,000  --- 5,000,000">
+                </div><br>
+
+                <div>House Size?
+
+                    <div>
+                        <label for="Rooms">1 Bedroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div>
+                    <div>
+                        <label for="Rooms">2 Bedroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div>
+                    <div>
+                        <label for="Rooms">3 Bedroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div>
+                    <div>
+                        <label for="Rooms">4 Bedroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div>
+                    <div>
+                        <label for="Rooms">5 Bedroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div><br>
+                </div>
+                <div>
+                    <label for="floors">How many floors?</label>
+                    <select id="floors" name="stories">
+                        <option value="floors">1</option>
+                        <option value="floors">2</option>
+                        <option value="floors">3</option>
+                        <option value="floors">4</option>
+                    </select><br><br>
+                </div>
+
+                <div>House Bathrooms?
+
+                    <div>
+                        <label for="Rooms">1 Bathroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div>
+                    <div>
+                        <label for="Rooms">2 Bathroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div>
+                    <div>
+                        <label for="Rooms">3 Bathroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div>
+                    <div>
+                        <label for="Rooms">4 Bathroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div>
+                    <div>
+                        <label for="Rooms">5 Bathroom</label>
+                        <input type="radio" name="House size" id="room">
+                    </div>
+                </div><br>
+                <div>
+                    <label for="acres">How many acres are you looking for?</label>
+                    <input number="acres" placeholder="number of acres" required>
+                </div><br>
+                <div>
+                    <label for="msg">Tell us a little bit about what you are looking for.</label>
+                    <textarea id="msg" name="msg"></textarea>
+                </div>
+                <div>
+                    <button type="reset">Reset</button>
+                    <button type="submit">submit</button>
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+
+
+
+
+
+</body>
+
+<footer>
+    <a href="/project2-html/titlepage.html">Link to the sellers page</a>
+</footer>
+
+</html>

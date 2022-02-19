@@ -1,20 +1,67 @@
 header{
-    justify-content: center;
+    text-align:  center;
     line-height: 120px;
     width: 1500px;
     font-size: 85px;
     text-decoration-color: #cccdcf;
     text-shadow: 2px 2px #4569b3;
     font-weight: bold;
-    background-color: rgb(236, 201, 158);
+    background-color: rgb(63, 224, 216);
   }
-  #grad {
-    background-image: linear-gradient(to right, rgba(185, 78, 78, 0), rgba(255,0,0,1));
+  fieldset{
+      margin: 2em 0;
+      padding: 1 em 2em;
+      border: solid 1px #ccc;
+      border-radius: 6px;
+      min-width: 200px;
+  }
+  body{
+      background-color: #4569b3;
+    font-size: 30px;
   }
   #container {
     display: flex;
   }
-  form{
+  label{
+      display: block;
+      margin-top: 1em;
+  }
+  
+  label:first-of-type{
+      margin-top: 0;
+  }
+  .form{
+      margin: 40px;
       text-align: left;
-      font-size: 20px;
+      font-size: 30px;
+      padding: 2%;
+      background-color: antiquewhite;
+  }
+  legend {
+      font-size: 1.25em;
+      padding: 0 .25em;
+      color: #4569b3;
+  }
+  input{
+      padding: 1em;
+      
+
+  }
+  input[type="email"], input[type="text"]{
+  width: 15em;
+  }
+  textarea{
+      min-height: 8em;
+      min-width: 100%;
+      padding: .5em;
+      
+  }
+  footer{
+    font-size: 20px;
+    padding-top:50px;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
